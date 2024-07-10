@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono-normal{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* banner style here */
+.banner{
+    height: 620px;
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .banner-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+width: 90%;
+margin-top: 26px;
+width: 998px;
+height: 582px;
+}
+.banner-content img{
+    margin-bottom: 32px;
+}
+.banner-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.banner-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    opacity: 0.7; 
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 17px;
+    border: none;
+ }
+.span-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* banner style end */
+
+
+/* Web-Development-container-1-style start */
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+.Web-Development-container-1{
+    /* width: 1440px; */
+    margin: 0 auto;
+    padding: 72px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+.Web-Development-content{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.Web-Development-text-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Web-Development-text-style h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.Web-Development-text-style p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+/* section (.parent-text-style) start */
+.formet-8{ 
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+.formet-9{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px; 
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.btn-primary{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+.parent-text-style h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.parent-text-style p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 48px;
+
+}
+
+
+/*section (.frame-8-2nd style) start*/
+.Group-2{
+    margin-right: 48px;
+}
+ .frame-9-2nd{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+ }
+.group-2-text-style h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+.group-2-text-style p{
+    margin-bottom: 38px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* section .formet-8-part-2  -start */
+
+
+.parent-text-style-part-2 h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.parent-text-style-part-2 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+/* Web-Development-container-1-style end */
+
+/*third section part */
+.section-style{
+    margin-top: 200px;
+    margin: 0 auto;
+    width: 90%;
+    /* width: 1440px; */
+    height: 775px;
+    margin-top: 88PX;
+}
+ .parint-contyner{
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.parint-contyner h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.parint-contyner p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.third-section-img-content{
+    height: 614px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.iframe-style{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
