@@ -199,8 +199,6 @@ main{
 .section-style{
     margin-top: 200px;
     margin: 0 auto;
-    width: 90%;
-    /* width: 1440px; */
     height: 775px;
     margin-top: 88PX;
 }
@@ -242,12 +240,18 @@ main{
 }
 /* group style */
 .groups{
-   margin-top: 150px; 
+   margin-top: 150px;
 }
  /* group section style here  */
  .text-center{
     text-align: center;
  }
+ .align-justify{
+    text-align: justify;
+ }
+ /* .group-description{
+    text-align: justify;
+ } */
  .group-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -267,21 +271,25 @@ main{
     display: flex;
     gap: 24px;
  }
-.group-color-fast{
+.group-fast-color{
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    padding: 40px;
+    padding: 40px;   
+    width: 500px;
  }
-.group-color-second{
+.group-second-color{
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
     padding: 40px;
+    width: 500px;
  }
 
-.group-color-third{
+.group-third-color{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
-    padding: 40px;
+    padding: 40px;  
+    width: 500px;
+    
  }
  /* group section style end here  */
 
