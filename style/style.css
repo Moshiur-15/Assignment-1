@@ -128,7 +128,7 @@ main{
     padding: 12px 20px 12px 20px;
 }
 .parent-text-style{
-    padding: 10px 98px 9px 0px;
+    padding: 10px 120px 9px 0px;
 }
 .parent-text-style h2{
     color: rgba(13, 19, 33, 0.7);
@@ -160,7 +160,7 @@ main{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
  }
  .group-2-text-style{
-    padding:10px 101px 9px 0px;
+    padding:10px 121px 9px 0px;
  }
 .group-2-text-style h2{
     color: rgba(13, 19, 33, 0.7);
@@ -184,7 +184,7 @@ main{
 
 /* section .formet-8-part-2  -start */
 .parent-text-style-part-2{
-    padding: 10px 133px 9px 0px;
+    padding: 10px 153px 9px 0px;
 }
 
 .parent-text-style-part-2 h2{
