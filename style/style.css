@@ -240,3 +240,48 @@ main{
     height: 100%;
     border-radius: 16px;
 }
+/* group style */
+.groups{
+   margin-top: 150px; 
+}
+ /* group section style here  */
+ .text-center{
+    text-align: center;
+ }
+ .group-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+ }
+ .group-description{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+ }
+.groups-conntynar{
+    display: flex;
+    gap: 24px;
+ }
+.group-color-fast{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+ }
+.group-color-second{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+ }
+
+.group-color-third{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+ }
+ /* group section style end here  */
+ 
